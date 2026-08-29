@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spelling Bee 🐝</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game">
+    <h1>🐝 Spelling Bee</h1>
+
+```
+<p>Listen to the word and spell it!</p>
+
+<button id="speakButton">🔊 Hear Word</button>
+
+<input id="answer" type="text" placeholder="Type the spelling..." autocomplete="off">
+
+<button id="checkButton">Check</button>
+
+<p id="result"></p>
+
+<h2>Score: <span id="score">0</span></h2>
+
+<button id="nextButton">➡️ Next Word</button>
+```
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
